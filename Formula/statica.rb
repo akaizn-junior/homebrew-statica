@@ -6,27 +6,27 @@ class Statica < Formula
   desc "Powered HTML static site generator"
   homepage "https://github.com/akaizn-junior/statica"
   license "MIT"
-  version "0.17.0"
+  version "0.18.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/akaizn-junior/statica/releases/download/v0.17.0/statica-aarch64-apple-darwin"
-      sha256 "7dbcc44d5de31776955a211f6e2bce29a532a2985c2b01f1e2f5ec1aa84a599a"
+      url "https://github.com/akaizn-junior/statica/releases/download/v0.18.0/statica-aarch64-apple-darwin"
+      sha256 "58ab46c493ce7c5ba7f952c01a4632d006e8848b11a01bc1681e04b243d6b378"
     end
     on_intel do
-      url "https://github.com/akaizn-junior/statica/releases/download/v0.17.0/statica-x86_64-apple-darwin"
-      sha256 "2f554dd1954aa57fd17e016ecf81b745c6080ff77f2d0a0760486d8a2db77639"
+      url "https://github.com/akaizn-junior/statica/releases/download/v0.18.0/statica-x86_64-apple-darwin"
+      sha256 "1b57759695a8179ac80bdbb5b630a0f4abd82ec1cf3ed3e6dc9b9820f1455de3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/akaizn-junior/statica/releases/download/v0.17.0/statica-aarch64-unknown-linux-gnu"
-      sha256 "436c9ba994e9f26f23d221a273ef7bc0e0bbeaee215ab56715829af40d37a76d"
+      url "https://github.com/akaizn-junior/statica/releases/download/v0.18.0/statica-aarch64-unknown-linux-gnu"
+      sha256 "d4baccc87108157cf66c858b6d7b36bbcbca5d8a85aff184a06ca0aec7c69cc6"
     end
     on_intel do
-      url "https://github.com/akaizn-junior/statica/releases/download/v0.17.0/statica-x86_64-unknown-linux-gnu"
-      sha256 "1e20041fda1e92b4e231ed8dfe2f778c85fefdbc5d1acdc5857d81902680e4ac"
+      url "https://github.com/akaizn-junior/statica/releases/download/v0.18.0/statica-x86_64-unknown-linux-gnu"
+      sha256 "e7c2181489d8b46561be1809c318f1d5ddc7849c300113dc59fc97e630b54274"
     end
   end
 
