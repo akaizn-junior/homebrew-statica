@@ -11,22 +11,22 @@ class Statica < Formula
   on_macos do
     on_arm do
       url "https://github.com/akaizn-junior/statica/releases/download/v0.34.0/statica-aarch64-apple-darwin"
-      sha256 "47c9423a4e2c09b39a889f139cfcb77179ccf87e98dd6ea73f29680f707c7ba9"
+      sha256 "4f397aa679bbe8d53e77575a77833e9b34f9790e96380b513e973acf16dafad2"
     end
     on_intel do
       url "https://github.com/akaizn-junior/statica/releases/download/v0.34.0/statica-x86_64-apple-darwin"
-      sha256 "05c5b2b6a6665532f783ea3df49a8966d8c7e63ffce4785d086ace9832b4dbce"
+      sha256 "0b6daf6272d3242a6fbed3044716a6d02a7d24af9aa1456bcf1b9f2f989dddf1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/akaizn-junior/statica/releases/download/v0.34.0/statica-aarch64-unknown-linux-gnu"
-      sha256 "c907ec686b0cd078544f27fe9acaa179f5ec288ce5af01b5e1e5cd8004a40c91"
+      sha256 "ef127115bb4c153aabced2e4011b31d975d5748739109953d72de1809e3fc349"
     end
     on_intel do
       url "https://github.com/akaizn-junior/statica/releases/download/v0.34.0/statica-x86_64-unknown-linux-gnu"
-      sha256 "03dc2629dd4aba78f9adfcb07e27f191280c4fe0bc108edf04b6a271399601c1"
+      sha256 "8bc253cab8ac5be4b301b3f48512b80112bb5251f88e747b724a2349f4039b2e"
     end
   end
 
